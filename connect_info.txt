@@ -1,0 +1,4 @@
+@Connected Time : 2023.09.24 16:15
+@Message        : "Hello World!"
+@Lisence        : None
+@Reposity Name  : StudyNotes
