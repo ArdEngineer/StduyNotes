@@ -157,7 +157,7 @@ int main(){
 ``` C++
 //使用函数将加减乘除封装起来使用
 #include <stdio.h>
-typedef unsigned long long uint16;
+typedef long uint16;
 
 uint16 gcd(uint16 a,uint16 b){
     if (b == 0) return a;
@@ -183,8 +183,8 @@ int main(){
     uint16 u1, u2, d1, d2;
     scanf("%d", &u1);
     getchar();
-    scanf("%d", &u2);
     scanf("%d", &d1);
+    scanf("%d", &u2);
     getchar();
     scanf("%d", &d2);
 
